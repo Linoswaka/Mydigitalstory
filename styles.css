@@ -48,7 +48,7 @@ article p {
 
 figure {
   align-self: flex-start;
-/*display: flex;*/
+display: flex;
   height: auto;
   margin: 0;
   width: 200%;
