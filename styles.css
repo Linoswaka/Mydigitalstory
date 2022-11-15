@@ -28,7 +28,7 @@ section > * {
 }
 
 article {
-  padding: 1rem;
+  padding: 0 1rem;
 }
 article p {
  font-family: Helvetica, sans-serif;
@@ -51,14 +51,15 @@ figure {
 display: flex;
   height: auto;
   margin: 0;
-  width: 200%;
+  width: 100%;
   justify-content: center;
+  top: 3rem;
 }
 
 .flourish-embed {
-  width: 100%;
+  width: 150%;
   height: auto;
-align-items: flex-start;
+  display: flex;
 
 }
 
