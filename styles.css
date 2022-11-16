@@ -3,16 +3,19 @@ body {
   margin: 3rem auto;
   max-width: 60rem;
 }
-
 h1 {
   text-align: center;
   margin-bottom: 3rem;
   font-family: audiowide;
   font-size: 35px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-  p{
+p{
     font-family: Arial, Helvetica, sans-serif;
   }
 section {
@@ -28,14 +31,12 @@ section {
 section > * {
   flex: 1;
 }
-
 article {
   padding: 0 1rem;
 }
 article p {
 font-family: Arial, Helvetica, sans-serif;
-
-  line-height: 1.8;
+line-height: 1.8;
 }
 @media screen and (min-width: 35rem) {
   article p {
@@ -47,10 +48,9 @@ font-family: Arial, Helvetica, sans-serif;
     min-height:20vh;
   }
 }
-
 figure {
   align-self: flex-start;
-display: flex;
+  display: flex;
   height: auto;
   margin: 0;
   width: 100%;
@@ -62,9 +62,7 @@ display: flex;
   width: 150%;
   height: auto;
   display: flex;
-
 }
-
 @media screen and (min-width: 35rem) {
   figure {
     position: sticky;
