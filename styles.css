@@ -29,9 +29,7 @@ h2{
 h3{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  
-}
-  
+  }
 section {
   display: flex;
   flex-direction: column;
@@ -45,7 +43,6 @@ section {
 section >* {
   flex: 1;
 }
-
 article {
   padding: 0 1rem;
   bottom: 5rem;
@@ -55,8 +52,6 @@ article p {
   font-size: 1.1rem;
   line-height: 1.8;
   height: auto;
-  
-
 }
 p {
   font-family: Helvetica, sans-serif;
@@ -65,7 +60,6 @@ p {
    margin-bottom: 2rem;
    padding: 10vh;
   }
-
 @media screen and (min-width: 35rem) {
   article p {
     margin: 0;
@@ -76,7 +70,6 @@ p {
     min-height:20vh;
   }
 }
-
 figure {
   align-items: center;
   align-self: flex-start;
@@ -86,7 +79,6 @@ figure {
   width: 100%;
   justify-content: center;
   top: 3rem;
-
 }
 
 .flourish-embed {
@@ -94,7 +86,6 @@ figure {
   height: auto;
   display: flex;
 }
-
 @media screen and (min-width: 35rem) {
   figure {
     position: sticky;
